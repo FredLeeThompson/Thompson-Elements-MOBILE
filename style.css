@@ -1,11 +1,10 @@
 .header {
-  width:100%;
+  width:80%;
   height:250px;
-  background-color: #4C444C;
+  background-color:black;
 }
 
 #headerLogo {
-  width:300px;
   margin-top:15px;
   margin-left:45px;
 }
