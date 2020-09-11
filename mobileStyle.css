@@ -4,14 +4,15 @@
   margin:0px;
   padding:0px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
   grid-template-areas:
   "header header"
   "nav nav"
   "headerContentText headerContentImage"
   "aboutMe aboutMe"
   "recentProgectsBar recentProjectsBar"
-  "casePreviewText1 casePreviewPic1";
+  "casePreviewText1 casePreviewPic1"
+  "contactMeBar contactMeBar";
 }
 
 .header {
@@ -282,6 +283,10 @@ top:1px;
 #casepreviewbutoonholder {
     width:50%;
     margin-top:100px;
+}
+
+.contactMeBar {
+  grid-template-area: contactMeBar;
 }
 
 #contactMeBarText h3 {
