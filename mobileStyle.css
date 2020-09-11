@@ -1,10 +1,53 @@
-.header {
+.cssGrid {
+  display:grid;
   width:100%;
-  height:233px;
+  margin:0px;
+  padding:0px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+  "header";
+}
+
+.header {
+  grid-template-area: header;
+  width:100%;
   background-color: #4C444C;
 }
 
-#headerLogo {
+/* #headerLogo {
+  display:inline-block;
   margin-left:45px;
   padding-top:10px;
+} */
+
+.nav {
+  grid-template-area: nav;
+  background-color: #4C444C;
+  height:80px;
+  text-align:center;
+  word-spacing: 52px;
+  padding-top: 18px;
 }
+
+.nav a {
+  text-decoration: none;
+  color:white;
+  font-size:50px;
+}
+
+.nav a:hover {
+  color:#eae0c2;
+}
+
+
+/*//////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////////////*/
