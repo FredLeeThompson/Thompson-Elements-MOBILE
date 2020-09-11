@@ -3,15 +3,16 @@
   width:100%;
   margin:0px;
   padding:0px;
-  grid-template-columns: auto;
-  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
   grid-template-areas:
-  "header";
+  "header header"
+  "nav nav";
 }
 
 .header {
   grid-template-area: header;
-  width:100%;
+  grid-column-end: span 2;
   background-color: #4C444C;
 }
 
@@ -23,8 +24,9 @@
 
 .nav {
   grid-template-area: nav;
+  grid-column-end: span 2;
   background-color: #4C444C;
-  height:80px;
+  height:83px;
   text-align:center;
   word-spacing: 52px;
   padding-top: 18px;
@@ -39,6 +41,14 @@
 .nav a:hover {
   color:#eae0c2;
 }
+
+.nav a:active {
+  color:#eae0c2;
+}
+
+/* .nav a:visited {
+  color:red;
+} */
 
 
 /*//////////////////////////////////////////////////////////////////////////*/
