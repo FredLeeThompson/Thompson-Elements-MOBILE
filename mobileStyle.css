@@ -236,6 +236,7 @@ top:1px;
 
 .casePreviewText1 {
   grid-template-area: casePreviewText1;
+  padding:150px;
 
 }
 
