@@ -7,7 +7,8 @@
   grid-template-rows: auto auto;
   grid-template-areas:
   "header header"
-  "nav nav";
+  "nav nav"
+  "headerContentText headerContentImage";
 }
 
 .header {
@@ -44,6 +45,80 @@
 
 .nav a:active {
   color:#eae0c2;
+}
+
+/*////////////header box text///////////////////////////////////////////////*/
+
+
+.headerContentText {
+    grid-template-area: headerContentText;
+    height:auto;
+    width:auto;
+    margin:20px;
+    margin-top:20px;
+    margin-bottom:0px;
+    margin-right:0px;
+    padding-bottom:0px;
+}
+
+
+
+#headercontenttextpadd h2 {
+    margin-bottom:55px;
+    padding-left:27px;
+}
+
+.mybutton {
+box-shadow: 3px 3px 0px 0px #1c1b18;
+background:linear-gradient(linear, left top, left bottom, color-stop(0.05, #eae0c2), color-stop(1, #ccc2a6));
+background-color:#eae0c2;
+border-radius:15px;
+border:2px solid #333029;
+display:inline-block;
+cursor:pointer;
+color:#505739;
+font-family:Arial;
+font-size:14px;
+font-weight:bold;
+font-style:italic;
+padding:9px 27px;
+margin-left:108px;
+}
+.mybutton:hover {
+background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);S
+background-color:#ccc2a6;
+}
+.mybutton:active {
+position:relative;
+top:1px;
+}
+
+
+#mybuttonpadd {
+}
+
+
+
+
+#headerimagepadd {
+    padding-top:40px;
+}
+
+.box{
+    font-family: Arial;
+    height: 463px;
+    width:660px;
+    background-image: linear-gradient(to right, /*#e6e6e6*/#e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, white);
+    color:black;
+    /* text-align: center; */
+    font-size: 40px;
+    padding: 20px;
+    margin: 20px;
+    margin-right:0px;
+}
+
+.round {
+    border-radius: 10px;
 }
 
 /* .nav a:visited {
