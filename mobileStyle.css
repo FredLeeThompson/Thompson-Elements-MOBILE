@@ -194,17 +194,17 @@ top:1px;
 }
 
 .aboutMeMainText {
-  width:773px;
-  margin-left:111px;
+  width:850px;
+  margin-left:68.5px;
   margin-bottom:370px;
 }
 
 .aboutMeMainText p {
-  font-family: sans-serif;
+  /* font-family: sans-serif; */
   text-align: center;
   line-height: 1.4;
   font-size: 33px;
-  font-weight:200;
+  font-weight:600;
 }
 
 
