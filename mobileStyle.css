@@ -100,21 +100,22 @@ top:1px;
 
 
 
-#headerimagepadd {
+/* #headerimagepadd {
     padding-top:40px;
-}
+} */
 
 .box{
     font-family: Arial;
     height: 463px;
     width:660px;
-    background-image: linear-gradient(to right, /*#e6e6e6*/#e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, white);
+    background-image: linear-gradient(to right, /*#e6e6e6*/#e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, #e3e3e3, white, white);
     color:black;
     /* text-align: center; */
     font-size: 40px;
     padding: 20px;
     margin: 20px;
     margin-right:0px;
+    margin-left:10px;
 }
 
 .round {
@@ -124,6 +125,14 @@ top:1px;
 /* .nav a:visited {
   color:red;
 } */
+
+.headerContentImage {
+  height:463px;
+  margin-top:50px;
+  margin-left:-335px;
+  ma
+
+}
 
 
 /*//////////////////////////////////////////////////////////////////////////*/
