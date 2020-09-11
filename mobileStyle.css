@@ -4,11 +4,12 @@
   margin:0px;
   padding:0px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto auto auto auto;
   grid-template-areas:
   "header header"
   "nav nav"
-  "headerContentText headerContentImage";
+  "headerContentText headerContentImage"
+  "aboutMe aboutMe";
 }
 
 .header {
@@ -46,6 +47,29 @@
 .nav a:active {
   color:#eae0c2;
 }
+
+
+h3 {
+    font-family: 'Roboto Slab', serif, Muli;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 15.4px;
+    margin-bottom:13px;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 567;
+    line-height: 20px;
+    word-spacing:4.4px;
+
+}
+
 
 /*////////////header box text///////////////////////////////////////////////*/
 
@@ -130,9 +154,59 @@ top:1px;
   height:463px;
   margin-top:50px;
   margin-left:-335px;
-  ma
-
 }
+
+.aboutMe {
+    grid-template-area: aboutMe;
+    grid-column-end: span 2;
+    margin-top:145px;
+}
+
+.aboutMeHeadText {
+    text-align: center;
+    line-height: 5px;
+    padding-top: 1px;
+    margin-top:60px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size:40px;
+}
+
+
+
+.animateline {
+  display:inline-block;
+  height:16px;
+  width:10px;
+  margin-left:59.5%;
+  margin-top:0%;
+  padding-top:0%;
+  /* margin-left:100px; */
+  border-bottom:1px solid #000;
+  animation: increase 28s;
+  animation-fill-mode: both;
+}
+
+@keyframes increase {
+    100% {
+        width: 175px;
+    }
+}
+
+.aboutMeMainText {
+  width:773px;
+  margin-left:111px;
+  margin-bottom:370px;
+}
+
+.aboutMeMainText p {
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.4;
+  font-size: 33px;
+  font-weight:200;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////////////*/
