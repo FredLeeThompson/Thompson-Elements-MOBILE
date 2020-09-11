@@ -67,7 +67,7 @@ h3 {
 
 p {
     font-family: 'Roboto Slab', serif;
-    font-size: 19px;
+    font-size: 16px;
     font-style: normal;
     font-variant: normal;
     font-weight: 567;
@@ -238,18 +238,19 @@ top:1px;
 .casePreviewText1 {
   grid-template-area: casePreviewText1;
   padding-right:20px;
-  padding-top:320px;
-  width:50%;
+  padding-top:240px;
+  width:52%;
   margin-left:10%;
   margin-bottom:200px;
 
 }
 
-.casePreviewPic1 {
-  grid-template-area: casePreviewPic1;
-  margin-left:-74%;
-  margin-top:190px;
-  margin-bottom:200px;
+#buzzbuzzlogotext p {
+  margin:0;
+  margin-top:20px;
+  line-height:40px;
+  /* font-family: Arial; */
+  font-size:32px;
 }
 
 .casepreviewbutton {
@@ -284,6 +285,14 @@ top:1px;
     width:50%;
     margin-top:100px;
 }
+
+.casePreviewPic1 {
+  grid-template-area: casePreviewPic1;
+  margin-left:-74%;
+  margin-top:227px;
+  margin-bottom:200px;
+}
+
 
 .contactMeBar {
   grid-template-area: contactMeBar;
