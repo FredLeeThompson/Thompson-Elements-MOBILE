@@ -4,12 +4,13 @@
   margin:0px;
   padding:0px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
   grid-template-areas:
   "header header"
   "nav nav"
   "headerContentText headerContentImage"
-  "aboutMe aboutMe";
+  "aboutMe aboutMe"
+  "recentProgectsBar recentProjectsBar";
 }
 
 .header {
@@ -49,7 +50,7 @@
 }
 
 body {
-  background-color: #e3e3e3;
+  /* background-color: #8c8c8c; */
 }
 
 h3 {
@@ -209,6 +210,26 @@ top:1px;
   line-height: 1.4;
   font-size: 33px;
   font-weight:500;
+}
+
+
+.recentProjectsBar {
+    grid-template-area: aboutMeSectBar;
+    grid-column-end: span 2;
+    /* margin-top:87px; */
+    padding-top:20px;
+    background-color:#eae0c2;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    font-size:36px;
+    height:70px;
+}
+
+#recentProjectsText h3 {
+  color:#4C444C;
+  margin:0px;
+  padding-top:19.4px;
+  margin-bottom:16px;
 }
 
 
