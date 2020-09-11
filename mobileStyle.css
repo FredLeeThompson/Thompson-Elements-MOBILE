@@ -4,13 +4,14 @@
   margin:0px;
   padding:0px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
   grid-template-areas:
   "header header"
   "nav nav"
   "headerContentText headerContentImage"
   "aboutMe aboutMe"
-  "recentProgectsBar recentProjectsBar";
+  "recentProgectsBar recentProjectsBar"
+  "casePreviewText1 casePreviewPic1";
 }
 
 .header {
@@ -230,6 +231,16 @@ top:1px;
   margin:0px;
   padding-top:19.4px;
   margin-bottom:16px;
+}
+
+
+.casePreviewText1 {
+  grid-template-area: casePreviewText1;
+
+}
+
+.casePreviewPic1 {
+  grid-template-area: casePreviewPic1;
 }
 
 
