@@ -264,7 +264,7 @@ top:1px;
 
 .casepreviewbutton {
   display:inline-block;
-  width:120px;
+  width:180px;
   margin-left:-50px;
   box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
   background:linear-gradient(linear, left top, left bottom,
@@ -275,7 +275,7 @@ top:1px;
   cursor:pointer;
   color:#505739;
   font-family:Arial;
-  font-size:14px;
+  font-size:22px;
   font-weight:bold;
   font-style:italic;
   padding:9px 27px;
