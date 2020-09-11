@@ -4,14 +4,15 @@
   margin:0px;
   padding:0px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-template-areas:
   "header header"
   "nav nav"
   "headerContentText headerContentImage"
   "aboutMe aboutMe"
   "recentProgectsBar recentProjectsBar"
-  "casePreviewText1 casePreviewPic1"
+  "casePreviewPic1 casePreviewPic1"
+  "casePreviewText1 casePreviewtext1"
   "contactMeBar contactMeBar";
 }
 
@@ -234,14 +235,22 @@ top:1px;
   margin-bottom:16px;
 }
 
+.casePreviewPic1 {
+  grid-template-area: casePreviewPic1;
+  grid-column-end: span 2;
+  margin-left:22%;
+  margin-top:227px;
+  margin-bottom:56px;
+}
 
 .casePreviewText1 {
   grid-template-area: casePreviewText1;
-  padding-right:20px;
-  padding-top:240px;
-  width:52%;
-  margin-left:10%;
-  margin-bottom:200px;
+  grid-column-end: span 2;
+  margin-top:0px;
+  padding-top:0px;
+  margin-left:145px;
+  margin-right:80px;
+  margin-bottom:235px;
 
 }
 
@@ -250,13 +259,13 @@ top:1px;
   margin-top:20px;
   line-height:40px;
   /* font-family: Arial; */
-  font-size:32px;
+  font-size:34px;
 }
 
 .casepreviewbutton {
   display:inline-block;
   width:120px;
-  margin-left:-210px;
+  margin-left:-50px;
   box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
   background:linear-gradient(linear, left top, left bottom,
   color-stop(0, #eae0c2), color-sto(0, #ccc2a6));
@@ -283,14 +292,7 @@ top:1px;
 
 #casepreviewbutoonholder {
     width:50%;
-    margin-top:100px;
-}
-
-.casePreviewPic1 {
-  grid-template-area: casePreviewPic1;
-  margin-left:-74%;
-  margin-top:227px;
-  margin-bottom:200px;
+    margin-top:120px;
 }
 
 
