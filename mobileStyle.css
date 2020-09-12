@@ -254,7 +254,6 @@ top:1px;
   margin-left:145px;
   margin-right:80px;
   margin-bottom:235px;
-
 }
 
 
@@ -262,7 +261,7 @@ top:1px;
 #buzzbuzzlogotext p {
   margin:0;
   margin-top:20px;
-  line-height:43px;
+  line-height:49px;
   /* font-family: Arial; */
   font-size:40px;
 }
