@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto auto auto auto auto auto auto auto;
   grid-template-areas:
-  "header header"
+  "header1 header1"
   "nav nav"
   "headerContentText headerContentImage"
   "aboutMe aboutMe"
@@ -16,8 +16,8 @@
   "contactMeBar contactMeBar";
 }
 
-.header {
-  grid-template-area: header;
+.header1 {
+  grid-template-area: header1;
   grid-column-end: span 2;
   background-color: #4C444C;
 }
@@ -59,6 +59,7 @@ a {
 
 body {
   /* background-color: #8c8c8c; */
+  zoom:100%;
 }
 
 h3 {
