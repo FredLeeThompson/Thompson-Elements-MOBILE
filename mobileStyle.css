@@ -269,7 +269,7 @@ top:1px;
 .casepreviewbutton {
   display:inline-block;
   width:255px;
-  margin-left:-80px;
+  margin-left:-96px;
   box-shadow: 0.05px 0.05px 0.05px 0.05px #1c1b18;
   background:linear-gradient(linear, left top, left bottom,
   color-stop(0, #eae0c2), color-sto(0, #ccc2a6));
